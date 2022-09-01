@@ -1,3 +1,8 @@
+.PHONY: clean
+clean:
+	docker-compose down
+	docker-compose down --volumes
+
 .PHONY: install
 npm-install:
 	docker-compose run --rm next-app npm install

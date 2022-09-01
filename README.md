@@ -10,6 +10,10 @@ This runs within docker-compose. Make sure you have both `docker` and `docker-co
 
 To run, simply execute `docker-compose up`. This will create your environment and you can access the next app at [http://localhost:3000](http://localhost:3000).
 
+## Starting from scratch
+
+If you'd like to delete your work in the DB, you can run `make clean`. NOTE: This will delete everything in the database and will require you to run your migrations and create data again. use with caution!
+
 ## Migrations
 
 ### Creating a new migration
